@@ -46,4 +46,18 @@ header {
 
 }
 
+footer {
+    background: linear-gradient($grey, $main);
+}
+
+.social {
+
+    a {
+        font-size: 2.5rem;
+        padding: 0.7rem;
+        margin: 0.6rem;
+    }
+
+}
+
 @import "breakpoints";

@@ -2,7 +2,6 @@ html {
   font-size: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #242244;
 }
 
 *, *::before, *::after {
@@ -10,13 +9,40 @@ html {
           box-sizing: inherit;
 }
 
+main {
+  background-color: #242244;
+}
+
 body {
   margin: 0;
   padding: 0;
-  line-height: 1.3;
+  line-height: 1.4;
   font-family: 'Raleway', sans-serif;
   color: #f7f7c1;
   font-size: 1.125rem;
+}
+
+.cursive {
+  font-family: "Cedarville Cursive", cursive, serif;
+}
+
+h1 {
+  color: #f1b8f1;
+}
+
+a {
+  color: #f7f7c1;
+}
+
+a:hover {
+  color: #f7f7c1;
+  opacity: 0.8;
+}
+
+img {
+  padding: 10px;
+  border: 1px solid rgba(56, 54, 54, 0.8);
+  margin: 10px;
 }
 
 .hero {
@@ -43,21 +69,6 @@ body {
   font-size: 1.5rem;
 }
 
-.hero .social a {
-  font-size: 2.5rem;
-  padding: 0.7rem;
-  margin: 0.6rem;
-}
-
-nav a {
-  color: #f7f7c1;
-}
-
-nav a:hover {
-  color: #f7f7c1;
-  opacity: 0.8;
-}
-
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(247, 247, 193, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -68,24 +79,16 @@ nav a:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-nav .dropdown-menu {
-  background-color: rgba(56, 54, 54, 0.8);
+.dropdown-menu {
+  background-color: #383636;
 }
 
-nav .dropdown-menu .dropdown-item {
+.dropdown-menu .dropdown-item {
   color: #f7f7c1;
 }
 
-nav .dropdown-menu .dropdown-item:hover, nav .dropdown-menu .dropdown-item:focus {
+.dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:focus {
   color: #383636;
-}
-
-.cursive {
-  font-family: "Cedarville Cursive", cursive, serif;
-}
-
-h1 {
-  color: #f1b8f1;
 }
 
 header .jumbotron {
@@ -123,6 +126,17 @@ header nav {
 
 .social .fa-pinterest {
   background-color: #cb2027;
+}
+
+footer {
+  background: -webkit-gradient(linear, left top, left bottom, from(#383636), to(#242244));
+  background: linear-gradient(#383636, #242244);
+}
+
+.social a {
+  font-size: 2.5rem;
+  padding: 0.7rem;
+  margin: 0.6rem;
 }
 
 @media only screen and (max-width: 767.98px) {
