@@ -1,6 +1,7 @@
 html {
     font-size: 100%;
     box-sizing: border-box;
+    background-color: $main;
 }
 
 *, *::before, *::after {
@@ -13,4 +14,5 @@ body {
     line-height: 1.3;
     font-family: 'Raleway', sans-serif;
     color: $lightYellow;
+    font-size: $font-med;
 }

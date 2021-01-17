@@ -2,6 +2,7 @@ html {
   font-size: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-color: #242244;
 }
 
 *, *::before, *::after {
@@ -15,10 +16,7 @@ body {
   line-height: 1.3;
   font-family: 'Raleway', sans-serif;
   color: #f7f7c1;
-}
-
-.cursive {
-  font-family: "Cedarville Cursive", cursive, serif;
+  font-size: 1.125rem;
 }
 
 .hero {
@@ -41,33 +39,18 @@ body {
   font-size: 3rem;
 }
 
+.hero nav {
+  font-size: 1.5rem;
+}
+
 .hero .social a {
   font-size: 2.5rem;
   padding: 0.7rem;
   margin: 0.6rem;
 }
 
-.social a {
-  color: white;
-  text-decoration: none;
-  border-radius: 50%;
-}
-
-.social .fa-twitter {
-  background-color: #55ACEE;
-}
-
-.social .fa-instagram {
-  background-color: #125688;
-}
-
-.social .fa-pinterest {
-  background-color: #cb2027;
-}
-
 nav a {
   color: #f7f7c1;
-  font-size: 1.5rem;
 }
 
 nav a:hover {
@@ -95,6 +78,51 @@ nav .dropdown-menu .dropdown-item {
 
 nav .dropdown-menu .dropdown-item:hover, nav .dropdown-menu .dropdown-item:focus {
   color: #383636;
+}
+
+.cursive {
+  font-family: "Cedarville Cursive", cursive, serif;
+}
+
+h1 {
+  color: #f1b8f1;
+}
+
+header .jumbotron {
+  background-image: url("../img/pexels-suzy-hazelwood-1629236.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header .jumbotron h1 {
+  font-size: 3.25rem;
+  margin: 2.5rem;
+}
+
+header .jumbotron a {
+  text-decoration: none;
+}
+
+header nav {
+  background-color: #383636;
+}
+
+.social a {
+  color: white;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.social .fa-twitter {
+  background-color: #55ACEE;
+}
+
+.social .fa-instagram {
+  background-color: #125688;
+}
+
+.social .fa-pinterest {
+  background-color: #cb2027;
 }
 
 @media only screen and (max-width: 767.98px) {
