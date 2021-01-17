@@ -1,0 +1,16 @@
+{
+  "name": "briannashrum3",
+  "version": "1.0.0",
+  "description": "A website for the author Brianna Shrum",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ross Birdsall",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1"
+  }
+}

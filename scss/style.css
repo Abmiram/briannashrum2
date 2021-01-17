@@ -1,0 +1,132 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3;
+  font-family: 'Raleway', sans-serif;
+  color: #f7f7c1;
+}
+
+.cursive {
+  font-family: "Cedarville Cursive", cursive, serif;
+}
+
+.hero {
+  min-height: 100vh;
+  background-image: url("../img/pexels-suzy-hazelwood-1629236.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__header {
+  color: #f1b8f1;
+  padding-top: 20vh;
+}
+
+.hero h1 {
+  font-size: 6rem;
+}
+
+.hero h2 {
+  font-size: 3rem;
+}
+
+.hero .social a {
+  font-size: 2.5rem;
+  padding: 0.7rem;
+  margin: 0.6rem;
+}
+
+.social a {
+  color: white;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.social .fa-twitter {
+  background-color: #55ACEE;
+}
+
+.social .fa-instagram {
+  background-color: #125688;
+}
+
+.social .fa-pinterest {
+  background-color: #cb2027;
+}
+
+nav a {
+  color: #f7f7c1;
+  font-size: 1.5rem;
+}
+
+nav a:hover {
+  color: #f7f7c1;
+  opacity: 0.8;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(247, 247, 193, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #f7f7c1;
+  color: rgba(247, 247, 193, 0.65);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav .dropdown-menu {
+  background-color: rgba(56, 54, 54, 0.8);
+}
+
+nav .dropdown-menu .dropdown-item {
+  color: #f7f7c1;
+}
+
+nav .dropdown-menu .dropdown-item:hover, nav .dropdown-menu .dropdown-item:focus {
+  color: #383636;
+}
+
+@media only screen and (max-width: 767.98px) {
+  .hero {
+    min-height: 100vh;
+    background-image: url("../img/pexels-suzy-hazelwood-1629236.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .hero__header {
+    color: #f1b8f1;
+    padding-top: 8vh;
+  }
+  .hero h1 {
+    font-size: 4rem;
+  }
+  .hero h2 {
+    font-size: 2rem;
+  }
+  .hero .social a {
+    font-size: 1.5rem;
+    padding: 0.6rem;
+    margin: 0.5rem;
+  }
+  nav a {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+  nav a {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

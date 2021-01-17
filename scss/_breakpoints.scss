@@ -1,0 +1,46 @@
+@media only screen and (max-width: 767.98px) {
+    .hero {
+        min-height: 100vh;
+        background-image: url('../img/pexels-suzy-hazelwood-1629236.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        &__header {
+            color: $pink;
+            padding-top: 8vh;
+        }
+    
+        h1 {
+            font-size: 4rem;
+        }
+    
+        h2 {
+            font-size: 2rem;
+        }
+    
+        .social {
+    
+            a {
+                font-size: 1.5rem;
+                padding: 0.6rem;
+                margin: 0.5rem;
+            }
+    
+        }
+    }
+
+    nav {
+        a {
+            font-size: 1.2rem;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 575.98px) {
+    nav {
+        a {
+            font-size: 1rem;
+        }
+    }
+}
