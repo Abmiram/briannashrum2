@@ -20,16 +20,9 @@ body {
     font-size: $font-med;
 }
 
-.cursive {
-    font-family: $cursive;
-}
-
-h1 {
-    color: $pink;
-}
-
 a {
     color: $lightYellow;
+    text-decoration: none;
 }
 
 a:hover {
@@ -37,8 +30,28 @@ a:hover {
     opacity: 0.8;
 }
 
+.cursive {
+    font-family: $cursive;
+}
+
+.pink {
+    color: $pink;
+
+    a:hover {
+        color: $pink;
+    }
+}
+
+h1 {
+    color: $pink;
+}
+
 img {
     padding: 10px;
     border: 1px solid $greyOpaque;
-    margin: 10px;
+}
+
+.shadow-box {
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
 }
