@@ -37,7 +37,7 @@ a:hover {
 .pink {
     color: $pink;
 
-    a:hover {
+    &:hover {
         color: $pink;
     }
 }
