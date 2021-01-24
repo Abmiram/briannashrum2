@@ -56,3 +56,17 @@ img {
     padding: 2rem;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+#myTab {
+
+    .active {
+        background-color: transparent;
+        color: $lightYellow;
+        border-bottom-color: #121122;
+
+        &:hover {
+            border-bottom-color: #121122;
+        }
+    }
+
+}

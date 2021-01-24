@@ -59,6 +59,16 @@ img {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+#myTab .active {
+  background-color: transparent;
+  color: #f7f7c1;
+  border-bottom-color: #121122;
+}
+
+#myTab .active:hover {
+  border-bottom-color: #121122;
+}
+
 .hero {
   min-height: 100vh;
   background-image: url("../img/pexels-suzy-hazelwood-1629236.jpg");
