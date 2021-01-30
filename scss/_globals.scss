@@ -54,7 +54,7 @@ img {
 
 .shadow-box {
     padding: 2rem;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: $darkPurple;
 }
 
 #myTab {
@@ -62,11 +62,15 @@ img {
     .active {
         background-color: transparent;
         color: $lightYellow;
-        border-bottom-color: #121122;
+        border-bottom-color: $darkPurple;
 
         &:hover {
-            border-bottom-color: #121122;
+            border-bottom-color: $darkPurple;
         }
     }
 
+}
+
+.thumb {
+    max-height: 230px;
 }

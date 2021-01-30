@@ -56,7 +56,7 @@ img {
 
 .shadow-box {
   padding: 2rem;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #121122;
 }
 
 #myTab .active {
@@ -67,6 +67,10 @@ img {
 
 #myTab .active:hover {
   border-bottom-color: #121122;
+}
+
+.thumb {
+  max-height: 230px;
 }
 
 .hero {
